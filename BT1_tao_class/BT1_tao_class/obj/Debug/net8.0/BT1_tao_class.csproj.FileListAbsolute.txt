@@ -1,0 +1,14 @@
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\bin\Debug\net8.0\BT1_tao_class.exe
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\bin\Debug\net8.0\BT1_tao_class.deps.json
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\bin\Debug\net8.0\BT1_tao_class.runtimeconfig.json
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\bin\Debug\net8.0\BT1_tao_class.dll
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\bin\Debug\net8.0\BT1_tao_class.pdb
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\obj\Debug\net8.0\BT1_tao_class.GeneratedMSBuildEditorConfig.editorconfig
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\obj\Debug\net8.0\BT1_tao_class.AssemblyInfoInputs.cache
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\obj\Debug\net8.0\BT1_tao_class.AssemblyInfo.cs
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\obj\Debug\net8.0\BT1_tao_class.csproj.CoreCompileInputs.cache
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\obj\Debug\net8.0\BT1_tao_class.dll
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\obj\Debug\net8.0\refint\BT1_tao_class.dll
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\obj\Debug\net8.0\BT1_tao_class.pdb
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\obj\Debug\net8.0\BT1_tao_class.genruntimeconfig.cache
+D:\tailieu\HK_223\223LTC-\BT1_tao_class\BT1_tao_class\obj\Debug\net8.0\ref\BT1_tao_class.dll

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT1_tao_class", "BT1_tao_class\BT1_tao_class.csproj", "{F965E38B-3624-4827-90EE-6BA5A684611F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F965E38B-3624-4827-90EE-6BA5A684611F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F965E38B-3624-4827-90EE-6BA5A684611F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F965E38B-3624-4827-90EE-6BA5A684611F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F965E38B-3624-4827-90EE-6BA5A684611F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8333A24F-0D48-4366-B43B-E276F5F8E13C}
+	EndGlobalSection
+EndGlobal
