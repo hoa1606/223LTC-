@@ -1,0 +1,15 @@
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\bin\Debug\net8.0\BTLinQ2.exe
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\bin\Debug\net8.0\BTLinQ2.deps.json
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\bin\Debug\net8.0\BTLinQ2.runtimeconfig.json
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\bin\Debug\net8.0\BTLinQ2.dll
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\bin\Debug\net8.0\BTLinQ2.pdb
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\BTLinQ2.GeneratedMSBuildEditorConfig.editorconfig
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\BTLinQ2.AssemblyInfoInputs.cache
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\BTLinQ2.AssemblyInfo.cs
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\BTLinQ2.csproj.CoreCompileInputs.cache
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\BTLinQ2.sourcelink.json
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\BTLinQ2.dll
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\refint\BTLinQ2.dll
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\BTLinQ2.pdb
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\BTLinQ2.genruntimeconfig.cache
+D:\tailieu\HK_223\223LTC-\BTLinQ2\BTLinQ2\obj\Debug\net8.0\ref\BTLinQ2.dll
