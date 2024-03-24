@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class Department
 {
@@ -49,36 +50,60 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Tạo một số vị trí công việc
-        Position manager = new Position(1, "Manager", 50000);
-        Position developer = new Position(2, "Developer", 40000);
-        Position designer = new Position(3, "Designer", 45000);
-
-        // Tạo một số phòng ban
-        Department hrDepartment = new Department(1, "Human Resources");
-        Department itDepartment = new Department(2, "Information Technology");
-
-        // Tạo một số nhân viên
-        Employee emp1 = new Employee(1, "John Doe", new DateTime(2020, 1, 1), manager);
-        Employee emp2 = new Employee(2, "Jane Smith", new DateTime(2021, 5, 10), developer);
-        Employee emp3 = new Employee(3, "Bob Johnson", new DateTime(2019, 8, 15), designer);
-
-        // Thêm nhân viên vào phòng ban
-        hrDepartment.Employees.Add(emp1);
-        itDepartment.Employees.Add(emp2);
-        itDepartment.Employees.Add(emp3);
-
-        // Hiển thị thông tin
-        Console.WriteLine("Employees in HR Department:");
-        foreach (Employee emp in hrDepartment.Employees)
+        // Tạo danh sách các vị trí công việc
+        List<Position> positions = new List<Position>
         {
-            Console.WriteLine($"Name: {emp.Name}, Position: {emp.Position.Title}, Salary: {emp.Position.Salary}");
-        }
+            new Position(1, "Manager", 50000),
+            new Position(2, "Developer", 40000),
+            new Position(3, "Designer", 45000)
+        };
 
-        Console.WriteLine("\nEmployees in IT Department:");
-        foreach (Employee emp in itDepartment.Employees)
+        // Tạo danh sách các phòng ban
+        List<Department> departments = new List<Department>
         {
-            Console.WriteLine($"Name: {emp.Name}, Position: {emp.Position.Title}, Salary: {emp.Position.Salary}");
+            new Department(1, "Human Resources"),
+            new Department(2, "Information Technology")
+        };
+
+        // Tạo danh sách các nhân viên
+        List<Employee> employees = new List<Employee>
+        {
+            new Employee(1, "John Doe", new DateTime(1985, 10, 1), positions[0]), // John Doe, Manager, HR
+            new Employee(2, "Jane Smith", new DateTime(1990, 5, 10), positions[1]), // Jane Smith, Developer, IT
+            new Employee(3, "Bob Johnson", new DateTime(1980, 8, 15), positions[2]), // Bob Johnson, Designer, IT
+            new Employee(4, "Alice Brown", new DateTime(1988, 3, 20), positions[0]), // Alice Brown, Manager, IT
+        };
+
+        // Gán nhân viên vào phòng ban tương ứng
+        departments[0].Employees.Add(employees[0]); // John Doe to HR
+        departments[1].Employees.Add(employees[1]); // Jane Smith to IT
+        departments[1].Employees.Add(employees[2]); // Bob Johnson to IT
+        departments[1].Employees.Add(employees[3]); // Alice Brown to IT
+
+        // Nhập các yêu cầu tìm kiếm từ bàn phím
+        Console.WriteLine("Nhập từ khóa tìm kiếm:");
+        string keyword = Console.ReadLine();
+        Console.WriteLine("Nhập tuổi từ:");
+        int minAge = int.Parse(Console.ReadLine());
+        Console.WriteLine("Nhập tuổi đến:");
+        int maxAge = int.Parse(Console.ReadLine());
+        Console.WriteLine("Nhập vị trí:");
+        string positionKeyword = Console.ReadLine();
+        Console.WriteLine("Nhập phòng ban:");
+        string departmentKeyword = Console.ReadLine();
+
+        // Tìm và in ra kết quả từ các yêu cầu tìm kiếm
+        var searchResult = employees.Where(emp =>
+            (emp.Name.Contains(keyword) || emp.Position.Title.Contains(keyword) || emp.Position.Title.Contains(keyword)) &&
+            (DateTime.Now.Year - emp.HireDate.Year >= minAge && DateTime.Now.Year - emp.HireDate.Year <= maxAge) &&
+            (positionKeyword == "" || emp.Position.Title.Contains(positionKeyword)) &&
+            (departmentKeyword == "" || emp.Position.Title.Contains(departmentKeyword))
+        );
+
+        Console.WriteLine("\nKết quả tìm kiếm:");
+        foreach (var employee in searchResult)
+        {
+            Console.WriteLine($"Tên: {employee.Name}, Tuổi: {DateTime.Now.Year - employee.HireDate.Year}, Vị trí: {employee.Position.Title}, Phòng ban: {departments.FirstOrDefault(dep => dep.Employees.Contains(employee))?.Name}");
         }
     }
 }
