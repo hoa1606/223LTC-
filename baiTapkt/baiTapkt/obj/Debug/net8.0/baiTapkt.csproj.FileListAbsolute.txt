@@ -1,0 +1,15 @@
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\bin\Debug\net8.0\baiTapkt.exe
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\bin\Debug\net8.0\baiTapkt.deps.json
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\bin\Debug\net8.0\baiTapkt.runtimeconfig.json
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\bin\Debug\net8.0\baiTapkt.dll
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\bin\Debug\net8.0\baiTapkt.pdb
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\baiTapkt.GeneratedMSBuildEditorConfig.editorconfig
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\baiTapkt.AssemblyInfoInputs.cache
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\baiTapkt.AssemblyInfo.cs
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\baiTapkt.csproj.CoreCompileInputs.cache
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\baiTapkt.sourcelink.json
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\baiTapkt.dll
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\refint\baiTapkt.dll
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\baiTapkt.pdb
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\baiTapkt.genruntimeconfig.cache
+D:\tailieu\HK_223\223LTC-\baiTapkt\baiTapkt\obj\Debug\net8.0\ref\baiTapkt.dll

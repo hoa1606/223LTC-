@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BTLinQ2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e503da1dda250472d0588524ba53ce3177e2344b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6fe6f1627e3593d0c1368db6aaa4970c06aafa9")]
 [assembly: System.Reflection.AssemblyProductAttribute("BTLinQ2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BTLinQ2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\bin\Debug\net8.0\BaiKTGK.exe
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\bin\Debug\net8.0\BaiKTGK.deps.json
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\bin\Debug\net8.0\BaiKTGK.runtimeconfig.json
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\bin\Debug\net8.0\BaiKTGK.dll
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\bin\Debug\net8.0\BaiKTGK.pdb
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\BaiKTGK.GeneratedMSBuildEditorConfig.editorconfig
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\BaiKTGK.AssemblyInfoInputs.cache
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\BaiKTGK.AssemblyInfo.cs
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\BaiKTGK.csproj.CoreCompileInputs.cache
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\BaiKTGK.sourcelink.json
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\BaiKTGK.dll
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\refint\BaiKTGK.dll
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\BaiKTGK.pdb
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\BaiKTGK.genruntimeconfig.cache
+D:\tailieu\HK_223\223LTC-\BaiKTGK\BaiKTGK\obj\Debug\net8.0\ref\BaiKTGK.dll

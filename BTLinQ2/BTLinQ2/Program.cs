@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
+﻿
 public class Department
 {
     public int DepartmentId { get; set; }
@@ -94,7 +91,7 @@ class Program
 
         // Tìm và in ra kết quả từ các yêu cầu tìm kiếm
         var searchResult = employees.Where(emp =>
-            (emp.Name.Contains(keyword) || emp.Position.Title.Contains(keyword) || emp.Position.Title.Contains(keyword)) &&
+            (emp.Name.Contains(keyword) || emp.Position.Title.Contains(keyword)) &&
             (DateTime.Now.Year - emp.HireDate.Year >= minAge && DateTime.Now.Year - emp.HireDate.Year <= maxAge) &&
             (positionKeyword == "" || emp.Position.Title.Contains(positionKeyword)) &&
             (departmentKeyword == "" || emp.Position.Title.Contains(departmentKeyword))
